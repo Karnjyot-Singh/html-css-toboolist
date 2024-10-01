@@ -42,3 +42,22 @@ main {
 ul {
      list-style: none;
 }
+
+#verify {
+    display: inline-block;
+    font-size: smaller;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.check {
+    color: lawngreen;
+    border: 1px solid lawngreen;
+}
+
+.category-editorial {
+    color: white;
+    background-color: rgb(52, 52, 245);
+}
