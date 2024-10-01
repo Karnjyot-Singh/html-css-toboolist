@@ -57,7 +57,19 @@ ul {
     border: 1px solid lawngreen;
 }
 
-.category-editorial {
+
+.editorial {
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    text-align: center;
     color: white;
-    background-color: rgb(52, 52, 245);
+    font-size: small;
+    border-radius: 5px; 
+    background-color: cornflowerblue;
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
 }
