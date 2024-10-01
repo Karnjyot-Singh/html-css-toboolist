@@ -20,23 +20,32 @@ body {
 
 main {
     width: 800px;
+    height: 800px;
     background-color: white;
     margin:  0 auto;
     margin-top: 40px;
 }
 
 .button1 {
-    background-color: lightblue;
-    padding: 5px;
-    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 5px; 
+    background-color: cornflowerblue;
+    margin-left: 30px;
     margin-top: 10px;
+    border: none;
+    padding: 10px;
 }
 
 .button2 {
+    display: inline-block;
+    text-align: center;
     color: gray;
     margin-left: 2px;
     margin-top: 10px;
-    padding: 5px;  
+    padding: 10px;  
 }
 
 ul {
@@ -67,9 +76,71 @@ ul {
     font-size: small;
     border-radius: 5px; 
     background-color: cornflowerblue;
+    margin-top: 15px;
 }
 
 .cross {
     color: red;
     border: 1px solid red;
 }
+
+.Q1-Goals {
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 5px; 
+    background-color: mediumpurple;
+    margin-top: 15px;
+}
+
+.Recruiting {
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 5px; 
+    background-color: mediumseagreen;
+    margin-top: 15px;
+}
+
+.Mobile {
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 5px; 
+    background-color: orange;
+    margin-top: 15px;
+}
+
+.Website {
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 5px; 
+    background-color: palevioletred;
+    margin-top: 15px;
+}
+
+.Sales {
+    display: inline-block;
+    height: 15px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 5px; 
+    background-color: yellowgreen;
+    margin-top: 15px;
+}
+
